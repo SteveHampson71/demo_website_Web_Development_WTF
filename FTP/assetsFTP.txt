@@ -1,0 +1,8 @@
+epiz_28729577
+yBepvMiPxyMRkk
+cd htdocs
+cd assets
+binary
+mput d:\DevSPH\DemoSite\newAssets\*.png
+close
+quit

@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <title>Web Dev WTF</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <base href="/DevSPH/DemoSite/" target="_blank"> -->
+  <link rel="stylesheet" href="css/wdwtf.css">
+  <script src="js/wdwtf.js"></script>
+</head>
+<body>
+
+  <div id="Hero">
+    <p id="HeroTitle"></p>
+    <p id="HeroTitle2"></p>
+    <p id="HeroSubtitle"></p>
+    <p id="HeroBlurb1" class="HeroBlurb"></p>
+    <p id="HeroBlurb2" class="HeroBlurb"></p>
+    <p id="HeroBlurb3" class="HeroBlurb"></p>
+  </div>
+
+
+  <div id="NavBar">
+    <button onclick='navigate("about")'>About</button>
+    <button onclick='navigate("overview")'>Web Development Overview</button>
+    <button onclick='navigate("glossary")'>Glossary</button>
+    <button onclick='navigate("roadmap")'>Roadmap</button>
+    <button onclick='navigate("resources")'>Resources</button>
+    <button onclick='navigate("BTS")'>BTS</button>
+    <button id="Admin" onclick='navigate("admin")'>Admin</button>
+  </div>
+
+    <div id="Desktop">
+
+      <div class="content about">
+
+        <div id="aboutSide" class="side">
+
+        </div>
+
+        <div id="aboutPanel" class="panel">
+
+        </div>
+
+      </div>
+
+      <div class="content overview">
+
+        <div id="overviewSide" class="side">
+
+        </div>
+
+        <div id="overviewPanel" class="panel">
+
+        </div>
+
+      </div>
+
+      <div class="content glossary">
+
+        <div id="glossarySide" class="side">
+
+        </div>
+
+        <div id="glossaryPanel" class="panel">
+
+        </div>
+
+      </div>
+
+      <div class="content roadmap">
+
+        <div id="roadmapSide" class="side">
+
+        </div>
+
+        <div id="roadmapPanel" class="panel">
+
+        </div>
+
+      </div>
+
+      <div class="content resources">
+
+        <div id="resourcesSide" class="side">
+
+        </div>
+
+        <div id="resourcesPanel" class="panel">
+
+        </div>
+
+      </div>
+
+      <div class="content BTS">
+
+        <div id="BTSSide" class="side">
+
+        </div>
+
+        <div id="BTSPanel" class="panel">
+
+        </div>
+
+      </div>
+
+      <div class="content admin">
+
+        <div id="adminSide" class="side">
+
+        </div>
+
+        <div id="adminPanel" class="panel">
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <div id="Mobile">
+
+      <div class="content about">
+
+        <div id="aboutMobile" class="mobile">
+
+        </div>
+
+      </div>
+
+      <div class="content overview">
+
+        <div id="overviewMobile" class="mobile">
+
+        </div>
+
+      </div>
+
+      <div class="content glossary">
+
+        <div id="glossaryMobile" class="mobile">
+
+        </div>
+
+      </div>
+
+      <div class="content roadmap">
+
+        <div id="roadmapMobile" class="mobile">
+
+        </div>
+
+      </div>
+
+      <div class="content resources">
+
+        <div id="resourcesMobile" class="mobile">
+
+        </div>
+
+      </div>
+
+      <div class="content BTS">
+
+        <div id="BTSMobile" class="mobile">
+
+        </div>
+
+      </div>
+
+      <div class="content admin">
+
+        <div id="adminMobile" class="mobile">
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+  <div id="Footer">
+
+    <button id="Info" onclick="openPopUp()">i</button>
+
+    <div id="FooterContent">
+
+    this is the footer
+
+    </div>
+
+  </div>
+
+
+
+  <div id="PopUp">
+
+    <button id="PopUpClose" onclick="closePopUp()">X</button>
+
+    <div id="PopUpContent">
+
+      this is the pop up
+
+    </div>
+
+  </div>
+
+
+  <script>
+
+    adminCheck();
+    loadAllData();
+    navigate("about");
+
+  </script>
+</body>
+</html>

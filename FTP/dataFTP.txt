@@ -1,0 +1,7 @@
+epiz_28729577
+yBepvMiPxyMRkk
+cd htdocs
+cd data
+put d:\DevSPH\DemoSite\data\wdwtfdata.json
+close
+quit

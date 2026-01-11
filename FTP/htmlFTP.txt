@@ -1,0 +1,6 @@
+epiz_28729577
+yBepvMiPxyMRkk
+cd htdocs
+put d:\DevSPH\DemoSite\index.html
+close
+quit

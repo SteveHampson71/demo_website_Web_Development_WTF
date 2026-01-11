@@ -1,0 +1,7 @@
+epiz_28729577
+yBepvMiPxyMRkk
+cd htdocs
+cd css
+put d:\DevSPH\DemoSite\css\wdwtf.css
+close
+quit

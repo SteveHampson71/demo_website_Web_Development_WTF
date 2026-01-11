@@ -1,0 +1,7 @@
+epiz_28729577
+yBepvMiPxyMRkk
+cd htdocs
+cd js
+put d:\DevSPH\DemoSite\js\wdwtf.js
+close
+quit
