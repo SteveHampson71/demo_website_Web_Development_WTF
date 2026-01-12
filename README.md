@@ -24,7 +24,20 @@ It’s designed to be playful, informative, and a space for me to test ideas whi
 - Front-end pages with HTML, CSS, JS, and PHP  
 - Examples of interactive elements, layouts, and experiments  
 
+
 ## How to explore
-You can view the website directly (if live on GitHub Pages) or clone the repository to explore the files locally:  
+You can view the website directly on GitHub Pages:
+
+https://stevehampson71.github.io/demo_website_Web_Development_WTF/
+
+or clone the repository to explore the files locally:  
 ```bash
 git clone https://github.com/<your-username>/demo_website_Web_Development_WTF.git
+```
+
+## Related projects
+This website is populated using a homemade CMS built in MS Access.
+
+➡️ CMS repository:  
+
+https://github.com/SteveHampson71/demo_website_CMS_MSAccess
